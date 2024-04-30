@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    height: 60px;
+    font-family: cursive;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+#ott-logo {
+    margin-left: 0;
+    margin-top: 0;
+    height: 50px;
+    width: 80px;
+    padding: 0;
+    text-align: left;
+}
+
+#search {
+    width: 200px;
+    padding: 10px;
+    margin-right: -70px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.movie {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.movie:hover {
+    background-color: #e5e5e5;
+}
+
+/* Search button styles */
+#searchBtn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: -20px;
+}
+
+#searchBtn:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 40%;
+    color: #0056b3;
+}
+
+
+
+#recomnd {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: fit-content;
+}
